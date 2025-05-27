@@ -60,7 +60,9 @@ Rectangle {
             }
         }
 
-        Image {
+        //Remove comment to re-enable busyIndicator
+
+        /*Image {
             id: busyIndicator
             //in the middle of the remaining space
             y: parent.height - 150
@@ -75,9 +77,13 @@ Rectangle {
                 to: 360
                 duration: 1500
                 loops: Animation.Infinite
+                running: true
             }
-        }
-        Row {
+        }*/
+
+        //Remove comment to re-enable KDE Logo
+
+        /* Row {
         	opacity: 0.3
             spacing: units.smallSpacing*2
             anchors {
@@ -99,6 +105,6 @@ Rectangle {
                 sourceSize.height: units.gridUnit * 2
                 sourceSize.width: units.gridUnit * 2
             }
-        }
+        }*/ 
     }
 }

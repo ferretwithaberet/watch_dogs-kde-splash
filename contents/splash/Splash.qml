@@ -47,22 +47,20 @@ Rectangle {
             anchors.horizontalCenter: parent.horizontalCenter
             anchors.verticalCenter: parent.verticalCenter
             clip: true;
- 
-            AnimatedImage { 
+
+            AnimatedImage {
                 id: face
                 source: "images/plasma_d.gif"
-                paused: false 
+                paused: false
                 anchors.horizontalCenter: parent.horizontalCenter
                 anchors.verticalCenter: parent.verticalCenter
                 width:  imageSource.sizeAnim
                 height: imageSource.sizeAnim
-                visible: true 
+                visible: true
             }
         }
 
-        //Remove comment to re-enable busyIndicator
-
-        /*Image {
+        Image {
             id: busyIndicator
             //in the middle of the remaining space
             y: parent.height - 150
@@ -79,11 +77,9 @@ Rectangle {
                 loops: Animation.Infinite
                 running: true
             }
-        }*/
+        }
 
-        //Remove comment to re-enable KDE Logo
-
-        /* Row {
+        Row {
         	opacity: 0.3
             spacing: units.smallSpacing*2
             anchors {
@@ -105,6 +101,6 @@ Rectangle {
                 sourceSize.height: units.gridUnit * 2
                 sourceSize.width: units.gridUnit * 2
             }
-        }*/ 
+        }
     }
 }

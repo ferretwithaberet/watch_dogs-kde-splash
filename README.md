@@ -1,2 +1,8 @@
-# watch_dogs-kde-splash
-Available [here](https://store.kde.org/p/1417004)
+# WatchDogs KDE Splash
+
+Available on the [KDE Store](https://store.kde.org/p/1417004)
+
+## Testing
+
+Run:
+`ksplashqml --test --window $PWD`
